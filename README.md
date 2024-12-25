@@ -1,10 +1,34 @@
 # win_iptables
 A Windows version of iptables implemented based on WinDivert
 
-# Roadmap
+# Blueprint
 
 ## README.md
-- zh_cn [简体中文](README_CN.md)
+- [简体中文](README_CN.md)
+
+## Technology Stack
+
+- **Programming Languages:**
+  - C/C++: Using C++17 standard.
+  - Python: auxiliary tools.
+
+- **Libraries and Frameworks:**
+  - PortBender: Core packet filtering library, used to implement rule matching and traffic control.
+  - Windows API: For interacting with the operating system, such as creating services, managing processes, etc.
+
+- **Build Tools:**
+  - CMake: Cross-platform build system generator, used for configuring and compiling the project.
+  - MSBuild: The default build system when compiling projects using Visual Studio.
+  - Conan: Cross-platform C++ package manager
+
+- **Version Control System:**
+  - Git: Distributed version control system for code version management and collaborative development.
+
+- **Testing Frameworks:**
+  - Google Test: Unit testing framework for C++.
+
+- **Continuous Integration/Continuous Deployment (CI/CD):**
+  - GitHub Actions: Automates the build, test, and deployment process.
 
 ## Rule Management
 
@@ -46,16 +70,6 @@ A Windows version of iptables implemented based on WinDivert
 - [ ] Graphical User Interface (GUI)
   - [ ] Visual Rule Editor
   - [ ] Status Panel and Dashboard
-
-## Integration and Compatibility
-
-- [ ] Windows Firewall API Integration
-  - [ ] Sync with Windows Firewall Settings
-  - [ ] Override or Extend Default Behavior
-
-- [ ] Third-party Tool Support
-  - [ ] Work alongside network security software
-  - [ ] Provide Developer APIs
 
 ## Documentation and Support
 
