@@ -30,3 +30,12 @@
 *.exe
 *.out
 *.app
+build/
+win_iptables/.vs/win_iptables/FileContentIndex/49b98854-ba0d-4392-97e9-bf20de9758a8.vsidx
+win_iptables/.vs/win_iptables/FileContentIndex/aedca2d7-e52e-4cef-be4c-4b39dda8b65b.vsidx
+win_iptables/.vs/
+win_iptables_gtest/.conan/
+win_iptables_gtest/conan/
+win_iptables_gtest/win_ipta.4a3d3d6a/
+win_iptables_gtest/x64/
+win_iptables/.conan/
